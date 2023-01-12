@@ -17,6 +17,6 @@ apps:
 parts:
   hello-world:
     plugin: go
-    source-type: local
-    source: .
+    source-type: git
+    source: https://github.com/ernestl/hello-world 
 
