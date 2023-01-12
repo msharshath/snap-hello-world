@@ -18,5 +18,7 @@ parts:
   hello-world:
     plugin: go
     source-type: git
-    source: https://github.com/ernestl/hello-world 
+    source: https://github.com/ernestl/hello-world
 
+build-snaps:
+  - go 
